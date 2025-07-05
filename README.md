@@ -94,5 +94,5 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ## Author
 
-Mohammadhossein baba␣␣
+Mohammadhossein baba<br>
 Feel free to contact for collaboration or feedback.
