@@ -1,10 +1,10 @@
-# 🤖 Grasp Quality Detection via Vibration Analysis
+# Grasp Quality Detection via Vibration Analysis
 
 This project uses accelerometer data and machine learning techniques to predict the quality of robotic grasps. The goal is to classify grasps as **successful** or **failed** based on vibration signals during the manipulation process.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Grasp quality is critical in robotic manipulation. This notebook-based project leverages:
 
@@ -15,7 +15,7 @@ Grasp quality is critical in robotic manipulation. This notebook-based project l
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - **Source**: [Kaggle Grasping Dataset](https://www.kaggle.com/datasets/ugocupcic/grasping-dataset)
 - **Content**: Accelerometer signals from robotic gripper movements
@@ -23,7 +23,7 @@ Grasp quality is critical in robotic manipulation. This notebook-based project l
 
 ---
 
-## 🔍 Features Extracted
+## Features Extracted
 
 From each vibration signal sample:
 - Statistical metrics (mean, std, min, max)
@@ -32,7 +32,7 @@ From each vibration signal sample:
 
 ---
 
-## ⚙️ Models Trained
+## Models Trained
 
 - **Random Forest**
 - **Support Vector Machine (SVM)**
@@ -41,7 +41,7 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 - Accuracy
 - Precision, Recall, F1-Score
@@ -50,7 +50,7 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 1. Clone this repo:
    ```bash
@@ -67,7 +67,7 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ---
 
-## 📈 Sample Results
+## Sample Results
 
 | Metric      | Value |
 |-------------|-------|
@@ -77,14 +77,14 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ---
 
-## 📚 References
+## References
 
 - Dataset: [Grasping Dataset - Kaggle](https://www.kaggle.com/datasets/ugocupcic/grasping-dataset)
 - Techniques inspired by studies in robotic grasp stability and vibration sensing.
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
 - Real-time deployment on physical robot
 - Use of Deep Learning (LSTM/CNN) for raw signal input
@@ -92,7 +92,7 @@ Hyperparameter tuning was performed using `GridSearchCV`.
 
 ---
 
-## 🧑‍💻 Author
+## Author
 
 Mohammadhossein baba
 Feel free to contact for collaboration or feedback.
